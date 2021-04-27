@@ -4,8 +4,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview",
-    "deploy": "pm2 start npm --name todolist -- start"
+    "serve": "vite preview"
   },
   "dependencies": {
     "vue": "^3.0.5"
@@ -14,11 +13,5 @@
     "@vitejs/plugin-vue": "^1.2.2",
     "@vue/compiler-sfc": "^3.0.5",
     "vite": "^2.2.3"
-  },
-  "config": {
-    "vite": {
-      "host": "0.0.0.0",
-      "port": "48001"
-    }
   }
 }
